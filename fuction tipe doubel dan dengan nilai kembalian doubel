@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+//fuction tipe doubel dan dengan nilai kembalian doubel
+double perkalian ( double nilai1, double nilai2 ){
+	cout << " ini adalah tipe double dan dengan nilai kembalian double " <<endl;
+	return nilai1 * nilai2;
+	}
+	
+//fuction utama
+int main(){
+	//memanggil fuction double
+	cout << " ini adalah hasil perkalian dari 20 * 4 = " << perkalian (20,4);
+	return 0;
+}
