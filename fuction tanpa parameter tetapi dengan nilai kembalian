@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+//fuction tanpa parameter tetapi dengan nilai kembalian
+void cetakinfo () {
+	cout <<" ini adalah fuction tanpa parameter tetapi dengan nilai kembalian " <<endl;
+}
+//fungsion nilai kembalian
+int pengurangan ( int angka1, int angka2 ) {
+	return angka1 - angka2;
+}
+int main () {
+	//pemanggilan fuction
+	cetakinfo ();
+	//pemanggilan fuction pengurangn
+	cout << " ini adalah hasil pengurangan dari 20-10 = " <<pengurangan ( 20, 10 );
+	
+}
