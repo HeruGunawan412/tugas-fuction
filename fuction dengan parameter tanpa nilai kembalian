@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//fuction dengan parameter tanpa nilai kembalian
+void perkalian ( int angka1, int angka2 ) {
+	cout << " ini adalah fuction dengan parameter tanpa nilai kembalian " <<endl;
+	cout << " berikut hasil perkalian dari 10 * 5 = " <<endl << ( angka1 * angka2 );
+}
+//fuction utama
+int main () {
+	//pemanggilan fuction
+	perkalian ( 10,5 );
+	return 0;
+}
