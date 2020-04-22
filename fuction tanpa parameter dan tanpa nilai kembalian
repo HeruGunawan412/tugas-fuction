@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+//fuction tanpa parameter dan tanpa nilai kembalian
+void fuction () {
+	cout << " ini adalah fuction tanpa parameter dan tanpa nilai kembalian ";
+}
+int main () {
+	fuction ();
+	return 0;
+}
