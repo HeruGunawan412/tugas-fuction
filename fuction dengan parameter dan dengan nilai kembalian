@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+//fuction parameter dan dengan nilai kembalian
+int hasilpenjumlahan ( int angka1, int angka2 ) {
+	return angka1 + angka2;
+}
+//fuction utama 
+int main () {
+	//pemanggilan fuction hasil penjumlahan
+	cout << " hasil penjumlahan dari 15 + 10 = " << hasilpenjumlahan ( 15,10 );
+	return 0;
+}
